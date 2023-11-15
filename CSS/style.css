@@ -1,0 +1,49 @@
+body{
+    background-color: #F6F3EC;
+}
+header{
+    background-color: #F6F3EC;
+    height: 130px;
+    text-align: center;
+}
+.frente{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.logogelashi {
+    height: 120px;
+    padding: 5px;
+}
+.redessociales{
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+}
+.enlaceformulario{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.button{
+    height:50px;
+    width: 110px;
+    background-color: whitesmoke;
+    border-radius:10%;
+    text-align: center;
+    }
+.slider-container{
+    display: flex;
+    width: 100%;
+    height: 67vh;
+    overflow-x: scroll;
+}
+.slider-container img{
+    flex: 0 0 5%;
+    width: 100%;
+    object-fit: cover;
+}
